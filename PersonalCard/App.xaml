@@ -1,0 +1,25 @@
+﻿<Application x:Class="PersonalCard.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:PersonalCard"
+             StartupUri="MainWindow.xaml"
+             xmlns:viewModel="clr-namespace:PersonalCard.MVVM.ViewModel"
+             xmlns:view="clr-namespace:PersonalCard.MVVM.View"
+              >
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Theme/MenuRadioButtonTheme.xaml"/>
+                <ResourceDictionary Source="Theme/TextBoxGhostlySignatureTheme.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+            <DataTemplate DataType="{x:Type viewModel:HomeViewModel}">
+                <view:HomeView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:FeutereViewModel}">
+                <view:FeutereView/>
+            </DataTemplate>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
