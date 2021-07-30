@@ -8,9 +8,9 @@ namespace PersonalCard.MVVM.ViewModel
         private object _currentView;
 
         public RelayCommand HomeViewCommand { get; set; }
-        public RelayCommand FeutereViewCommand { get; set; }
+        public RelayCommand FutureViewCommand { get; set; }
         public HomeViewModel HomeVM { get; set; }
-        public FeutereViewModel FeutereVM { get; set; }
+        public FutureViewModel FutureVM { get; set; }
         public object CurrentView
         {
             get { return _currentView; }
@@ -25,7 +25,7 @@ namespace PersonalCard.MVVM.ViewModel
         public MainViewModel()
         {
             HomeVM = new HomeViewModel();
-            FeutereVM = new FeutereViewModel();
+            FutureVM = new FutureViewModel();
             CurrentView = HomeVM;
 
             HomeViewCommand = new RelayCommand(o =>
@@ -33,12 +33,10 @@ namespace PersonalCard.MVVM.ViewModel
                 CurrentView = HomeVM;
             });
 
-            FeutereViewCommand = new RelayCommand(o =>
+            FutureViewCommand = new RelayCommand(o =>
             {
-                CurrentView = FeutereVM;
+                CurrentView = FutureVM;
             });
         }
-
-
     }
 }

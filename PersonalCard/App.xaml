@@ -17,7 +17,7 @@
                 <view:HomeView/>
             </DataTemplate>
 
-            <DataTemplate DataType="{x:Type viewModel:FeutereViewModel}">
+            <DataTemplate DataType="{x:Type viewModel:FutureViewModel}">
                 <view:FeutereView/>
             </DataTemplate>
         </ResourceDictionary>

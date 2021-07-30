@@ -44,7 +44,7 @@
                 <RadioButton Content="Search"
                              Height="50"
                              Style="{StaticResource MenuRadioButtonTheme}"
-                             Command="{Binding FeutereViewCommand}"/>
+                             Command="{Binding FutureViewCommand}"/>
             </StackPanel>
 
             <ContentControl Grid.Row="1"

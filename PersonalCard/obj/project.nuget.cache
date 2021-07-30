@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "24PFcw5YOsS9B1vhHJ6q3OrCfD654G5QVOijeL+i2vo8m6q+zyTWYOIct7v+Lmqw13K29PhSUoQZP+03bWMFiA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\1\\source\\repos\\PersonalCard\\PersonalCard\\PersonalCard.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\1\\.nuget\\packages\\materialdesigncolors\\2.0.1\\materialdesigncolors.2.0.1.nupkg.sha512",
+    "C:\\Users\\1\\.nuget\\packages\\materialdesignthemes.wpf\\1.0.1\\materialdesignthemes.wpf.1.0.1.nupkg.sha512",
+    "C:\\Users\\1\\.nuget\\packages\\microsoft.csharp\\4.6.0\\microsoft.csharp.4.6.0.nupkg.sha512",
+    "C:\\Users\\1\\.nuget\\packages\\system.data.datasetextensions\\4.6.0-preview3.19128.7\\system.data.datasetextensions.4.6.0-preview3.19128.7.nupkg.sha512"
+  ],
+  "logs": []
+}
